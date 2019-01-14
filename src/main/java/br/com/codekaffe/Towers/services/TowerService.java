@@ -4,10 +4,13 @@ import br.com.codekaffe.Towers.models.Message;
 import br.com.codekaffe.Towers.models.Tower;
 import br.com.codekaffe.Towers.repository.TowerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Comparator;
 import java.util.List;
 
+
+@Service
 public class TowerService {
     @Autowired
     private TowerRepository towerRepository;
